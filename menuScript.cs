@@ -11,9 +11,9 @@ public class menuScript : MonoBehaviour
 
     void Start()
     {
-        quitMenu = quitMenu.GetComponent<Canvas>();
-        startText = startText.GetComponent<Button>();
-        exitText = exitText.GetComponent<Button>();
+        quitMenu = quitMenu.GetComponent<Canvas>(); //quit the game
+        startText = startText.GetComponent<Button>(); // start the game
+        exitText = exitText.GetComponent<Button>(); 
         quitMenu.enabled = false;
     }
 
